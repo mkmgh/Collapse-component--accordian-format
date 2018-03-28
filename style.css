@@ -1,0 +1,41 @@
+
+*   {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+p,ul { /* Just to make explanation of problem more readable */
+   text-align: justify;
+}
+
+#main {
+	display: flex;
+	flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+
+.secClass {
+	display: block;
+	color: white;
+    background-color: #484848;
+    text-align: center;
+    cursor: pointer;
+    border: black solid 2px;
+    width: 100%;
+}
+
+.secClass, .contentClass {
+    list-style-type: none;
+}
+
+.contentClass{
+
+	display: block;
+	width: 100%;
+	border: 5px solid lightgrey;
+}
